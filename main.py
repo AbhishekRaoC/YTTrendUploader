@@ -37,3 +37,5 @@ while True:
     ntim = t.clock()
     if(ntim >= (tim + 1)):
         checkTrend()
+
+# ______________________________
