@@ -28,9 +28,22 @@ def checkTrend():
 
 
 def upload(vid):
-    # add code from google youtube API to upload a video
-    # or use selenium to interact with the browser and upload to youtube.
-    print(vid)
+    def APIUpload(vid):
+        # add code from google youtube API to upload a video
+
+        return
+
+    def seleniumUpload(vid):
+        # or use selenium to interact with the browser and upload to youtube.
+
+        return
+
+    choice = int(input("If you have an Google Youtube API key click 1 to use it to upload your video, else click 2 /n to use selenium when you have signed in on chrome: "))
+    if(choice == 1):
+        APIUpload(vid)
+    elif(choice == 2):
+        seleniumUpload(vid)
+    # print(vid)
 
 
 # runs the code
