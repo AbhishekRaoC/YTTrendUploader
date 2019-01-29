@@ -35,7 +35,10 @@ def upload(vid):
 
     def seleniumUpload(vid):
         # or use selenium to interact with the browser and upload to youtube.
-
+        import selenium.webdriver.firefox
+        sel = selenium.webdriver.Firefox()
+        sel.start_client()
+        sel.get("www.youtube.com")
         return
 
     choice = int(input("If you have a Google Youtube API key click 1 to use it to upload your video, else click 2 /n to use selenium when you have signed in on chrome: "))
