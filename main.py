@@ -6,7 +6,8 @@ tim = 0
 # connecting to Google
 pytrends = TrendRQ(hl='en_us', tz=360)
 
-# keywords of the video
+# keywords of the video(s)
+# add more video arrays if needed: videoX = [insert 3 keywords] then append to videos array
 video1 = ["Hello", "Mac", "Apple"]
 video2 = ["Samsung", "Galaxy", "Review"]
 video3 = ["Windows", "Linux", "OS"]
@@ -27,6 +28,8 @@ def checkTrend():
 
 
 def upload(vid):
+    # add code from google youtube API to upload a video
+    # or use selenium to interact with the browser and upload to youtube.
     print(vid)
 
 
