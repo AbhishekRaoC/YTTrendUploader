@@ -4,5 +4,5 @@ Uses Google Trends to check whether the keywords of a certain video are trending
 
 
 
-### TODO
-[] Add Youtube API upload method
+### TODO:
+[ ] Add Youtube API upload method
