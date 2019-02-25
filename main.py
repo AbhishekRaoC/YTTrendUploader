@@ -30,7 +30,7 @@ def checkTrend():
 def upload(vid):
     def APIUpload(vid):
         # add code from google youtube API to upload a video
-
+        
         return
 
     def seleniumUpload(vid):
